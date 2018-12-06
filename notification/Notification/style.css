@@ -140,6 +140,10 @@
   cursor: pointer;
   margin: 1px;
 }
+.prev,
+.next{
+  cursor: pointer;
+}
 
 #button1:checked ~ #hw1,
 #button2:checked ~ #hw2,
