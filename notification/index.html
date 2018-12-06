@@ -1,0 +1,54 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Notification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="Notification/style.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+    <div class="main-container">
+      <div class="container-text">
+        <p>Рыба</p>
+          </div>
+            <div class="notification-container" id="nc">
+              <div class="tips-close">
+                <div class="notification-header">
+                  <b>EMAIL TIP OF THE DAY</b> 
+                    <button id="close-button" class="close">
+                      </button>
+                  </div>
+                    <div class="tips" id="tip">
+                      </div>
+                </div>
+                <div class="slider-container">
+                  <div class="disable">
+                    <input type="checkbox" name="checkbox" id="checkbox_id" value="value">
+                    <label for="checkbox_id">Disable Tips</label>
+                  </div>
+                  <div class="navigation">
+                    <a class="prev" onclick="plusIndex(-1)"><i class="fas fa-chevron-circle-left"></i></a>
+                    <div class="navdots">
+                      <input class="dots active" onclick="currentSlide(1)" name="slider" type="radio"id="button1">
+                      <input class="dots" onclick="currentSlide(2)"name="slider" type="radio"id="button2">
+                      <input class="dots" onclick="currentSlide(3)"name="slider" type="radio"id="button3">
+                      <input class="dots" onclick="currentSlide(4)"name="slider" type="radio"id="button4">
+                      <input class="dots" onclick="currentSlide(5)"name="slider" type="radio"id="button5">
+                      <input class="dots" onclick="currentSlide(6)"name="slider" type="radio"id="button6">
+                      <label id="hw1" for="button1"></label>
+                      <label id="hw2" for="button2"></label>
+                      <label id="hw3" for="button3"></label>
+                      <label id="hw4" for="button4"></label>
+                      <label id="hw5" for="button5"></label>
+                      <label id="hw6" for="button6"></label>
+                    </div>
+                      <a class="next" onclick="plusIndex(+1)"><i class="fas fa-chevron-circle-right"></i></a>
+                </div>
+          </div>
+    </div>
+ </div>
+ <script src="Notification/code.js"></script>
+</body>
+</html>
